@@ -1,0 +1,193 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(236, 236, 236);
+}
+
+p {
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.app {
+  margin: 0.5em;
+}
+
+.training-session-header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.icon {
+  margin: 0;
+  padding: 0.5em;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.icon-group .icon {
+  margin-left: 0.3em;
+}
+
+.exercise-container {
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 0.5em;
+  margin-top: 0.5em;
+  padding-left: 0;
+}
+
+.exercise-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 0.5em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.089);
+}
+
+.exercise-header input {
+  width: 8em;
+}
+
+.set {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: solid rgba(0, 0, 0, 0.089) 1px;
+}
+
+input {
+  border: none;
+  outline: none;
+  background: none;
+  width: 3em;
+}
+
+.set-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  border: solid 1px rgba(0, 0, 0, 0.089);
+  border-left: none;
+  border-top: none;
+  width: 3em;
+  height: 3em;
+  box-shadow: 3px 0 5px rgba(0, 0, 0, 0.048);
+}
+
+.set >.icon {
+  padding-right: 0;
+}
+
+.set-unit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checked {
+  background-color: rgb(212, 212, 212);
+}
+
+.button {
+  background-color: white;
+  margin-top: 0.5em;
+  padding: 1em;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.login-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-option {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-around;
+  border: solid rgba(0, 0, 0, 0.048) 1px;
+  border-radius: 3px;
+}
+
+.login-option > *{
+  padding: 0.5em;
+}
+
+.login-details {
+  margin-top: 0.5em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.login-input {
+  width: 25em;
+  border: solid rgba(0, 0, 0, 0.048) 1px;
+  border-radius: 3px;
+  padding: 0.5em;
+}
+
+.login-button {
+  width: 100%;
+  margin-top: 0.5em;
+  border: solid rgba(0, 0, 0, 0.048) 1px;
+  padding: 1em;
+  background-color: rgb(172, 174, 255);
+  border-radius: 3px;
+  color: white;
+}
+
+.selected {
+  background: linear-gradient(90deg, rgba(17,14,36,1) 0%, rgba(13,157,227,1) 100%);
+  color: white;
+}
+
+.session-post-container {
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 0.5em;
+  margin-top: 0.5em;
+  padding-left: 0;
+}
+
+.content {
+  padding: 1em;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.details {
+  display: flex;
+  gap: 0.5em;
+}
